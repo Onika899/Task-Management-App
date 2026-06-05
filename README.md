@@ -1,7 +1,3 @@
-📝 Complete README.md for Your Project
-Create a new file in your project root called README.md and copy this entire content:
-
-markdown
 # Task Management System
 
 A full-featured task management web application built with Laravel 12, featuring user authentication, role-based access control, task assignment, categories, priorities, and deadline tracking.
