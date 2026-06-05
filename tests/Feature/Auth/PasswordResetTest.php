@@ -12,14 +12,22 @@ class PasswordResetTest extends TestCase
 {
     use RefreshDatabase;
 
+<<<<<<< HEAD
     public function test_reset_password_link_screen_can_be_rendered(): void
+=======
+    public function test_reset_password_link_screen_can_be_rendered()
+>>>>>>> 0a353b9856d9335bcd31226e46579f639538e0a8
     {
         $response = $this->get('/forgot-password');
 
         $response->assertStatus(200);
     }
 
+<<<<<<< HEAD
     public function test_reset_password_link_can_be_requested(): void
+=======
+    public function test_reset_password_link_can_be_requested()
+>>>>>>> 0a353b9856d9335bcd31226e46579f639538e0a8
     {
         Notification::fake();
 
@@ -30,7 +38,11 @@ class PasswordResetTest extends TestCase
         Notification::assertSentTo($user, ResetPassword::class);
     }
 
+<<<<<<< HEAD
     public function test_reset_password_screen_can_be_rendered(): void
+=======
+    public function test_reset_password_screen_can_be_rendered()
+>>>>>>> 0a353b9856d9335bcd31226e46579f639538e0a8
     {
         Notification::fake();
 
@@ -47,7 +59,11 @@ class PasswordResetTest extends TestCase
         });
     }
 
+<<<<<<< HEAD
     public function test_password_can_be_reset_with_valid_token(): void
+=======
+    public function test_password_can_be_reset_with_valid_token()
+>>>>>>> 0a353b9856d9335bcd31226e46579f639538e0a8
     {
         Notification::fake();
 
@@ -63,9 +79,13 @@ class PasswordResetTest extends TestCase
                 'password_confirmation' => 'password',
             ]);
 
+<<<<<<< HEAD
             $response
                 ->assertSessionHasNoErrors()
                 ->assertRedirect(route('login'));
+=======
+            $response->assertSessionHasNoErrors();
+>>>>>>> 0a353b9856d9335bcd31226e46579f639538e0a8
 
             return true;
         });

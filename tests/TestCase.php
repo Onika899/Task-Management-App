@@ -6,5 +6,9 @@ use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
 
 abstract class TestCase extends BaseTestCase
 {
+<<<<<<< HEAD
     //
+=======
+    use CreatesApplication;
+>>>>>>> 0a353b9856d9335bcd31226e46579f639538e0a8
 }

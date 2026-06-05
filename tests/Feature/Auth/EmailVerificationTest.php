@@ -3,6 +3,10 @@
 namespace Tests\Feature\Auth;
 
 use App\Models\User;
+<<<<<<< HEAD
+=======
+use App\Providers\RouteServiceProvider;
+>>>>>>> 0a353b9856d9335bcd31226e46579f639538e0a8
 use Illuminate\Auth\Events\Verified;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Facades\Event;
@@ -13,18 +17,34 @@ class EmailVerificationTest extends TestCase
 {
     use RefreshDatabase;
 
+<<<<<<< HEAD
     public function test_email_verification_screen_can_be_rendered(): void
     {
         $user = User::factory()->unverified()->create();
+=======
+    public function test_email_verification_screen_can_be_rendered()
+    {
+        $user = User::factory()->create([
+            'email_verified_at' => null,
+        ]);
+>>>>>>> 0a353b9856d9335bcd31226e46579f639538e0a8
 
         $response = $this->actingAs($user)->get('/verify-email');
 
         $response->assertStatus(200);
     }
 
+<<<<<<< HEAD
     public function test_email_can_be_verified(): void
     {
         $user = User::factory()->unverified()->create();
+=======
+    public function test_email_can_be_verified()
+    {
+        $user = User::factory()->create([
+            'email_verified_at' => null,
+        ]);
+>>>>>>> 0a353b9856d9335bcd31226e46579f639538e0a8
 
         Event::fake();
 
@@ -38,12 +58,23 @@ class EmailVerificationTest extends TestCase
 
         Event::assertDispatched(Verified::class);
         $this->assertTrue($user->fresh()->hasVerifiedEmail());
+<<<<<<< HEAD
         $response->assertRedirect(route('dashboard', absolute: false).'?verified=1');
     }
 
     public function test_email_is_not_verified_with_invalid_hash(): void
     {
         $user = User::factory()->unverified()->create();
+=======
+        $response->assertRedirect(RouteServiceProvider::HOME.'?verified=1');
+    }
+
+    public function test_email_is_not_verified_with_invalid_hash()
+    {
+        $user = User::factory()->create([
+            'email_verified_at' => null,
+        ]);
+>>>>>>> 0a353b9856d9335bcd31226e46579f639538e0a8
 
         $verificationUrl = URL::temporarySignedRoute(
             'verification.verify',
