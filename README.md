@@ -309,30 +309,27 @@ SESSION_DRIVER=database
 4. Save changes
 
 ---
-
-# 📸 Screenshots
-
 ## Login Page
 
-![Login](screenshots/login.png)
+![Login](login.jpeg)
 
 ## Registration Page
 
-![Register](screenshots/Register.JPG)
+![Register](register.jpeg)
 
 ## Dashboard
 
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](dashboard.jpeg)
 
 ## Task List
 
-![Tasks](screenshots/tasks-list.png)
+![Tasks](tasks-list.jpeg)
 
 ## Create Task
 
-![Create Task](screenshots/create-task.png)
+![Create Task](create-task.jpeg)
 
----
+--
 
 # 🐛 Challenges & Solutions
 
