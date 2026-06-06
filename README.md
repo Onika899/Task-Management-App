@@ -318,7 +318,7 @@ SESSION_DRIVER=database
 
 ## Registration Page
 
-![Register](screenshots/register.png)
+![Register](screenshots/register.jpeg)
 
 ## Dashboard
 
