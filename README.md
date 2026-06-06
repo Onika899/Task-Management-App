@@ -282,23 +282,23 @@ Change status from "Pending" to "In Progress" or "Completed"
 Save changes
 
 📸 Screenshots
+
 Registration Page
-https://screenshots/register.png
+<img src="https://screenshots/register.jpg" alt="Mock Interview" width="600">
 
 Dashboard
-https://screenshots/dashboard.png
+<img src="https://screenshots/dashboard.jpg" alt="Mock Interview" width="600">
+
 
 Create Task Form
-https://screenshots/create-task.png
+<img src="https://screenshots/create-task.jpg" alt="Mock Interview" width="600">
 
 Tasks List
-https://screenshots/tasks-list.png
-
-Categories Management
-https://screenshots/categories.png
+<img src="https://screenshots/tasks-list.jpg" alt="Mock Interview" width="600">
 
 login
-https://screenshots/login.png
+<img src="https://screenshots/login.jpg" alt="Mock Interview" width="600">
+
 
 🐛 Challenges & Solutions
 Challenge 1: Table Naming Convention
