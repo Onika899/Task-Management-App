@@ -329,7 +329,6 @@ SESSION_DRIVER=database
 
 ![Create Task](create-task.jpeg)
 
---
 
 # 🐛 Challenges & Solutions
 
