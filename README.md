@@ -297,8 +297,8 @@ https://screenshots/tasks-list.png
 Categories Management
 https://screenshots/categories.png
 
-Priorities Management
-https://screenshots/priorities.png
+login
+https://screenshots/login.png
 
 🐛 Challenges & Solutions
 Challenge 1: Table Naming Convention
