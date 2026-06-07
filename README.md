@@ -331,6 +331,9 @@ SESSION_DRIVER=database
 
 ![Categories](Categories.png)
 
+## Users
+
+![Users](User.png)
 
 # 🐛 Challenges & Solutions
 
