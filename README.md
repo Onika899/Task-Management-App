@@ -323,6 +323,8 @@ SESSION_DRIVER=database
 
 ## Task List
 
+![Tasks](Tasks-list2.png)
+
 ![Tasks](Tasks-list.png)
 
 ## Create Task
