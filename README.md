@@ -327,9 +327,9 @@ SESSION_DRIVER=database
 
 ![Tasks](Tasks-list.png)
 
-## Create Task
+## Categories
 
-![Create Task](create-task.jpeg)
+![Categories](Categories.png)
 
 
 # 🐛 Challenges & Solutions
