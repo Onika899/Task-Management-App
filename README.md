@@ -319,7 +319,7 @@ SESSION_DRIVER=database
 
 ## Dashboard
 
-![Dashboard](Dashboardpage.jpeg)
+![Dashboard](Dashboardpage.png)
 
 ## Task List
 
