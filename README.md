@@ -348,6 +348,7 @@ SESSION_DRIVER=database
 ![Profile](Profile.png)
 
 
+---
 
 # 🐛 Challenges & Solutions
 
