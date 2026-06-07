@@ -323,7 +323,7 @@ SESSION_DRIVER=database
 
 ## Task List
 
-![Tasks](tasks-list.jpeg)
+![Tasks](Tasks-list.png)
 
 ## Create Task
 
