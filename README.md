@@ -352,6 +352,8 @@ SESSION_DRIVER=database
 
 # 🐛 Challenges & Solutions
 
+
+
 ## Challenge 1: Table Naming Convention
 
 **Problem:** Laravel generated unexpected table names.
