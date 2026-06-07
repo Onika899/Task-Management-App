@@ -335,6 +335,10 @@ SESSION_DRIVER=database
 
 ![Users](User.png)
 
+## Create New Task
+
+![Create New Task](CreateNewTask.png)
+
 # 🐛 Challenges & Solutions
 
 ## Challenge 1: Table Naming Convention
