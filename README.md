@@ -339,6 +339,11 @@ SESSION_DRIVER=database
 
 ![Create New Task](CreateNewTask.png)
 
+## Single Task view
+
+![Single Task view](SingleTaskview.png)
+
+
 # 🐛 Challenges & Solutions
 
 ## Challenge 1: Table Naming Convention
