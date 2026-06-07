@@ -345,7 +345,7 @@ SESSION_DRIVER=database
 
 ## Profile 
 
-![Profile](Profile .png)
+![Profile](Profile.png)
 
 
 
