@@ -311,7 +311,7 @@ SESSION_DRIVER=database
 ---
 ## Login Page
 
-![Login](Loginpage.jng)
+![Login](loginpage.png)
 
 ## Registration Page
 
