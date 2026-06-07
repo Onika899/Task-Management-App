@@ -343,6 +343,11 @@ SESSION_DRIVER=database
 
 ![Single Task view](SingleTaskview.png)
 
+## Profile 
+
+![Profile](Profile.png)
+
+
 
 # 🐛 Challenges & Solutions
 
